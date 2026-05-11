@@ -36,24 +36,51 @@ from . import (
     content_about,
     content_contact,
     content_privacy,
+    # Phase 2
+    content_seo_northern_beaches,
+    content_seo_belrose,
+    content_seo_for_landscapers,
+    content_seo_for_solar,
+    content_seo_for_builders,
+    content_best_seo_agency_sydney,
+    content_ai_seo_agency,
+    content_seo_vs_google_ads,
+    content_how_to_rank_on_google,
+    content_affordable_seo_sydney,
 )
 
 
 # Ordered list — sitemap order, navigation priority
 PAGE_MODULES = [
     content_home,                   # /
-    content_seo_sydney,             # /seo-sydney/
-    content_seo_services_sydney,    # /seo-services-sydney/
-    content_seo_packages_sydney,    # /seo-packages-sydney/
-    content_local_seo_sydney,       # /local-seo-sydney/
-    content_seo_for_tradies,        # /seo-for-tradies/
-    content_seo_for_plumbers,       # /seo-for-plumbers/
-    content_seo_for_electricians,   # /seo-for-electricians/
-    content_seo_for_vets,           # /seo-for-vets/
-    content_seo_for_pest_control,   # /seo-for-pest-control/
-    content_answer_engine := content_aeo,
-    content_generative_engine := content_geo,
-    content_seo_consultant_sydney,  # /seo-consultant-sydney/
+    # Phase 1 - core SEO pillars
+    content_seo_sydney,
+    content_seo_services_sydney,
+    content_seo_packages_sydney,
+    content_affordable_seo_sydney,       # P2
+    content_local_seo_sydney,
+    content_best_seo_agency_sydney,      # P2
+    # Geo
+    content_seo_northern_beaches,        # P2
+    content_seo_belrose,                 # P2
+    # Industries
+    content_seo_for_tradies,
+    content_seo_for_plumbers,
+    content_seo_for_electricians,
+    content_seo_for_builders,            # P2
+    content_seo_for_landscapers,         # P2
+    content_seo_for_solar,               # P2
+    content_seo_for_vets,
+    content_seo_for_pest_control,
+    # AI/AEO
+    content_aeo,
+    content_geo,
+    content_ai_seo_agency,               # P2
+    # Informational pillars
+    content_how_to_rank_on_google,       # P2
+    content_seo_vs_google_ads,           # P2
+    # Personal brand + utility
+    content_seo_consultant_sydney,
     content_about,
     content_contact,
     content_privacy,
@@ -129,8 +156,8 @@ def write_manifest(out_dir: Path) -> None:
         "background_color": "#fafaf9",
         "theme_color": "#1e40af",
         "icons": [
-            {"src": "/android-chrome-192.png", "sizes": "192x192", "type": "image/png"},
-            {"src": "/android-chrome-512.png", "sizes": "512x512", "type": "image/png"},
+            {"src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png"},
+            {"src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png"},
         ],
     }
     (out_dir / "site.webmanifest").write_text(json.dumps(manifest, indent=2), encoding="utf-8")

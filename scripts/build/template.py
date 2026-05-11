@@ -51,20 +51,33 @@ FOOTER_SERVICES = [
     ("/local-seo-sydney/", "Local SEO Sydney"),
     ("/seo-services-sydney/", "SEO Services"),
     ("/seo-packages-sydney/", "SEO Packages"),
+    ("/affordable-seo-sydney/", "Affordable SEO"),
     ("/seo-consultant-sydney/", "SEO Consultant"),
+    ("/best-seo-agency-sydney/", "How to Pick an Agency"),
 ]
 
 FOOTER_INDUSTRIES = [
     ("/seo-for-tradies/", "SEO for Tradies"),
     ("/seo-for-plumbers/", "SEO for Plumbers"),
     ("/seo-for-electricians/", "SEO for Electricians"),
+    ("/seo-for-builders/", "SEO for Builders"),
+    ("/seo-for-landscapers/", "SEO for Landscapers"),
+    ("/seo-for-solar/", "SEO for Solar"),
     ("/seo-for-vets/", "SEO for Vets"),
     ("/seo-for-pest-control/", "SEO for Pest Control"),
+]
+
+FOOTER_AREAS = [
+    ("/seo-northern-beaches/", "SEO Northern Beaches"),
+    ("/seo-belrose/", "SEO Belrose"),
 ]
 
 FOOTER_RESOURCES = [
     ("/answer-engine-optimisation/", "Answer Engine Optimisation"),
     ("/generative-engine-optimisation/", "Generative Engine Optimisation"),
+    ("/ai-seo-agency/", "AI SEO Agency"),
+    ("/how-to-rank-on-google/", "How to Rank on Google"),
+    ("/seo-vs-google-ads/", "SEO vs Google Ads"),
     ("/about/", "About Darnell Media"),
     ("/contact/", "Contact"),
     ("/privacy/", "Privacy"),
@@ -322,6 +335,10 @@ def render_footer() -> str:
         <h2 class="footer-heading">Industries</h2>
         <ul>
 {list_items(FOOTER_INDUSTRIES)}
+        </ul>
+        <h2 class="footer-heading mt-2">Service Areas</h2>
+        <ul>
+{list_items(FOOTER_AREAS)}
         </ul>
       </div>
       <div>

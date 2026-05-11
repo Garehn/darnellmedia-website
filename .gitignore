@@ -13,3 +13,7 @@ images/originals/
 # editor
 .vscode/
 .idea/
+
+# lighthouse local runner
+.lhci/node_modules/
+.lhci/package-lock.json

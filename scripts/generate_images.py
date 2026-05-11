@@ -172,6 +172,77 @@ IMAGES = [
      "behind. Cool deep blue tones, single soft natural light source "
      "from the left. Editorial, restrained composition.",
      LS, MED, "hero", "16:9 landscape"),
+
+    # Phase 2 additions
+    ("hero-seo-northern-beaches",
+     "Sydney's Northern Beaches coastline at golden hour, viewed from a "
+     "headland: long stretch of sand, deep blue ocean, a sliver of "
+     "suburban green ridge in the distance. Editorial wide composition, "
+     "warm sky meeting cool ocean. No people, no logos.",
+     LS, MED, "hero", "16:9 landscape"),
+
+    ("hero-seo-belrose",
+     "A quiet leafy residential street in Belrose, Sydney's Northern "
+     "Beaches: native eucalyptus canopy overhead, dappled warm light on "
+     "the road, a hint of a modest mid-century home in the soft-focus "
+     "background. Deep blue sky above. Editorial Australian suburban mood.",
+     LS, MED, "hero", "16:9 landscape"),
+
+    ("hero-seo-for-landscapers",
+     "A landscaped backyard mid-installation: a stone retaining wall in "
+     "warm grey, a strip of fresh turf rolled out, a small wheelbarrow of "
+     "soil to the side. Soft afternoon natural light, deep blue sky, "
+     "no people visible. Editorial garden-design aesthetic.",
+     LS, MED, "hero", "16:9 landscape"),
+
+    ("hero-seo-for-solar",
+     "Close detail of a solar panel array on a modern residential roof "
+     "at golden hour: panels in deep blue catching the warm light, "
+     "Sydney sky in the background fading to amber. Clean composition, "
+     "no logos visible, editorial energy-and-tech mood.",
+     LS, MED, "hero", "16:9 landscape"),
+
+    ("hero-seo-for-builders",
+     "Detailed view of a modern Australian home extension under "
+     "construction: clean timber framing, blueprints folded on a sawhorse, "
+     "a measuring tape and pencil. Warm natural light, no people, no "
+     "logos. Editorial residential-construction aesthetic.",
+     LS, MED, "hero", "16:9 landscape"),
+
+    ("hero-best-seo-agency-sydney",
+     "An overhead view of two coffee cups on a small cafe table with a "
+     "leather notebook between them, the notebook page showing a clean "
+     "list written in pen. Soft natural side-light, Sydney morning mood. "
+     "Negative space, editorial comparison aesthetic.",
+     LS, MED, "hero", "16:9 landscape"),
+
+    ("hero-ai-seo-agency",
+     "Abstract: a smartphone shown in shallow focus displaying a chat-"
+     "bubble interface with deep electric blue accents. Out-of-focus "
+     "bokeh of warm amber light in the background suggesting other "
+     "devices. Editorial tech atmosphere, no logos or readable text.",
+     LS, MED, "hero", "16:9 landscape"),
+
+    ("hero-seo-vs-google-ads",
+     "Editorial split composition: left half shows a sprouting plant in "
+     "soft focus with deep blue background suggesting growth over time; "
+     "right half shows a single arrow-line graph drawn on a notebook page "
+     "in amber ink. Soft natural light, no logos.",
+     LS, MED, "hero", "16:9 landscape"),
+
+    ("hero-how-to-rank-on-google",
+     "Top-down view of an open notebook with a numbered list (1. 2. 3.) "
+     "drawn in clean ink, a pen resting beside it, and a single mug of "
+     "coffee in the corner. Soft natural light from the left, deep "
+     "shadow on the right. Editorial how-to aesthetic.",
+     LS, MED, "hero", "16:9 landscape"),
+
+    ("hero-affordable-seo-sydney",
+     "Top-down view of an empty piggy bank beside a single coin and a "
+     "slim notebook with neat handwritten figures. Soft window light from "
+     "the left. Deep blue and amber accents. Editorial honest-pricing "
+     "aesthetic, restrained composition.",
+     LS, MED, "hero", "16:9 landscape"),
 ]
 
 # ──────────────────────────────────────────────────────────────────────────
