@@ -17,3 +17,4 @@ images/originals/
 # lighthouse local runner
 .lhci/node_modules/
 .lhci/package-lock.json
+generation_log.json
