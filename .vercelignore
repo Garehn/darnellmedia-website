@@ -1,0 +1,26 @@
+# Keep build/dev files out of the production deploy.
+# Vercel serves whatever isn't ignored from the repo root.
+
+# Audit runner + node modules
+.lhci/
+
+# Build scripts and inputs — not needed at runtime
+scripts/
+inputs/
+
+# Reference docs
+docs/
+design-system/
+
+# Project-level markdown isn't user-facing
+README.md
+website.md
+
+# Source originals (already gitignored anyway, but belt-and-braces)
+images/originals/
+
+# Local-only
+.venv/
+.env
+generation_log.json
+.DS_Store
