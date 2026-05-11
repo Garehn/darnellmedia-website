@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# secrets — never commit
+inputs/.env
+.env
+
+# image generation working dirs
+images/originals/
+
+# editor
+.vscode/
+.idea/
