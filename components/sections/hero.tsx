@@ -18,8 +18,10 @@ interface HeroProps {
   heroAlt?: string;
 }
 
+// Use translateY only — content is always fully visible (opacity stays 1).
+// This avoids blank screens on slow JS hydration.
 const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
+  hidden: { opacity: 1, y: 16 },
   visible: (i = 0) => ({
     opacity: 1,
     y: 0,
