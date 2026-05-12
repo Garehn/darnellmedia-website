@@ -10,7 +10,6 @@ interface CalendlyEmbedProps {
   url?: string;
 }
 
-// TODO: Replace with your actual Calendly event link after creating your account
 const DEFAULT_CALENDLY_URL = "https://calendly.com/garehn-darnellmedia/free-seo-consultation";
 
 export function CalendlyEmbed({
