@@ -1,20 +1,32 @@
+# Next.js
+.next/
+out/
+node_modules/
+
+# Python env
 .venv/
 __pycache__/
 *.pyc
-.DS_Store
 
-# secrets — never commit
-inputs/.env
+# Secrets
 .env
+inputs/.env
 
-# image generation working dirs
+# Source originals (large files)
 images/originals/
 
-# editor
+# Editor
 .vscode/
 .idea/
 
-# lighthouse local runner
+# Lighthouse
 .lhci/node_modules/
 .lhci/package-lock.json
+
+# Logs
 generation_log.json
+npm-debug.log*
+
+# OS
+.DS_Store
+.claude/

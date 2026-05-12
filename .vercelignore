@@ -1,26 +1,33 @@
 # Keep build/dev files out of the production deploy.
-# Vercel serves whatever isn't ignored from the repo root.
 
-# Audit runner + node modules
-.lhci/
-
-# Build scripts and inputs — not needed at runtime
+# Old Python build system — no longer used
 scripts/
-inputs/
+design-system/
 
 # Reference docs
 docs/
-design-system/
 
-# Project-level markdown isn't user-facing
+# Project markdown
 README.md
 website.md
 
-# Source originals (already gitignored anyway, but belt-and-braces)
+# Source originals
 images/originals/
 
-# Local-only
+# Python environment
 .venv/
+__pycache__/
+*.pyc
+inputs/
+
+# Local-only
 .env
 generation_log.json
 .DS_Store
+
+# Old static HTML (replaced by Next.js)
+index.html
+
+# Legacy
+app.js
+styles.css
